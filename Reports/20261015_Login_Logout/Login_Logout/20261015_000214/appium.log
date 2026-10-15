@@ -1,0 +1,164 @@
+[38;5;112m[Appium][0m Welcome to Appium v3.8.0
+[38;5;112m[Appium][0m Non-default server args:
+[38;5;112m[Appium][0m { basePath: [32m'/wd/hub'[39m, loglevel: [32m'info'[39m, port: [33m57051[39m }
+[38;5;112m[Appium][0m Attempting to load driver uiautomator2...
+[38;5;112m[Appium][0m Appium REST http interface listener started on http://0.0.0.0:57051/wd/hub
+[38;5;112m[Appium][0m You can provide the following URLs in your client code to connect to this server:
+	http://192.168.252.34:57051/wd/hub
+	http://127.0.0.1:57051/wd/hub (only accessible from the same host)
+	http://192.168.96.1:57051/wd/hub
+[38;5;112m[Appium][0m Available drivers:
+[38;5;112m[Appium][0m   - uiautomator2@8.7.0 (automationName 'UiAutomator2')
+[38;5;112m[Appium][0m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[38;5;86m[HTTP][0m --> GET /wd/hub/status 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 7 ms - 110
+[38;5;86m[HTTP][0m --> POST /wd/hub/session {"capabilities":{"firstMatch":[{"appium:adbExecTimeout":120000,"appium:app":"D:\\QA.engineer5\\Downloads\\APK-sauce-labs.2.7.1 (1).apk","appium:appWaitActivity":"*","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"emulator-5554","appium:deviceName":"emulator-5554 (sdk_gphone64_x86_64 - Android 15)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"appium:platformName":"ANDROID","appium:platformVersion":"15","appium:systemPort":50803,"appium:udid":"emulator-5554","appium:uiautomator2ServerInstallTimeout":120000,"appium:uiautomator2ServerLaunchTimeout":180000,"platformName":"ANDROID"}]},"desiredCapabilities":{"appium:adbExecTimeout":120000,"appium:app":"D:\\QA.engineer5\\Downloads\\APK-sauce-labs.2.7.1 (1).apk","appium:appWaitActivity":"*","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"emulator-5554","appium:deviceName":"emulator-5554 (sdk_gphone64_x86_64 - Android 15)","appium:fullReset":fal…
+[38;5;123m[BaseDriver][0m The following arguments are not known and will be ignored: desiredCapabilities
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=ANDROID'
+[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'ANDROID'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at C:\Users\QA.engineer5\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-driver
+[38;5;99m[AppiumDriver@b825][0m Appium v3.8.0 creating new AndroidUiautomator2Driver (v8.7.0) session
+[38;5;99m[AppiumDriver@b825][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;99m[AppiumDriver@b825][0m Appium's BaseDriver version is 10.8.1
+[38;5;99m[AppiumDriver@b825][0m AndroidUiautomator2Driver's BaseDriver version is 10.8.1
+[38;5;-81m[AndroidUiautomator2Driver@0d20][0m The following provided capabilities were not recognized by this driver:
+[38;5;-81m[AndroidUiautomator2Driver@0d20][0m   deviceId
+[38;5;191m[38a155b6][0m[38;5;-81m[AndroidUiautomator2Driver@0d20][0m Session created with session id: 38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5
+[38;5;191m[38a155b6][0m[38;5;229m[ADB][0m Found 1 'build-tools' folders under 'C:\Users\QA.engineer5\AppData\Local\Android\Sdk' (newest first):
+[38;5;191m[38a155b6][0m[38;5;229m[ADB][0m     C:\Users\QA.engineer5\AppData\Local\Android\Sdk\build-tools\36.0.0
+[38;5;191m[38a155b6][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\QA.engineer5\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[38;5;191m[38a155b6][0m[38;5;-81m[AndroidUiautomator2Driver@0d20][0m Retrieving device list
+[38;5;191m[38a155b6][0m[38;5;-81m[AndroidUiautomator2Driver@0d20][0m Using device: emulator-5554
+[38;5;191m[38a155b6][0m[38;5;123m[BaseDriver][0m Subscribing 0d20fed1-34ae-4050-87f4-bc7b77b52a8e to topic 'uiautomator2:sessionUdidClaimed'
+[38;5;191m[38a155b6][0m[38;5;123m[BaseDriver][0m Subscribing 0d20fed1-34ae-4050-87f4-bc7b77b52a8e to topic 'uiautomator2:sessionUdidContended'
+[38;5;191m[38a155b6][0m[38;5;123m[BaseDriver][0m Subscribing 0d20fed1-34ae-4050-87f4-bc7b77b52a8e to topic 'uiautomator2:sessionUdidReleased'
+[38;5;191m[38a155b6][0m[38;5;123m[BaseDriver][0m Unsubscribing 0d20fed1-34ae-4050-87f4-bc7b77b52a8e from topic 'uiautomator2:sessionUdidContended'
+[38;5;191m[38a155b6][0m[38;5;123m[BaseDriver][0m Unsubscribing 0d20fed1-34ae-4050-87f4-bc7b77b52a8e from topic 'uiautomator2:sessionUdidReleased'
+[38;5;191m[38a155b6][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\QA.engineer5\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[38;5;191m[38a155b6][0m[38;5;123m[BaseDriver][0m Using local app 'D:\QA.engineer5\Downloads\APK-sauce-labs.2.7.1 (1).apk'
+[38;5;191m[38a155b6][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;191m[38a155b6][0m[38;5;-81m[AndroidUiautomator2Driver@0d20][0m Relaxing hidden api policy
+[38;5;191m[38a155b6][0m[38;5;229m[ADB][0m Using 'aapt2.exe' from 'C:\Users\QA.engineer5\AppData\Local\Android\Sdk\build-tools\36.0.0\aapt2.exe'
+[38;5;191m[38a155b6][0m[38;5;229m[ADB][0m Package name: 'com.swaglabsmobileapp'
+[38;5;191m[38a155b6][0m[38;5;229m[ADB][0m Main activity name: 'com.swaglabsmobileapp.SplashActivity'
+[38;5;191m[38a155b6][0m[38;5;229m[ADB][0m The installation of 'settings_apk-debug.apk' took 1326ms
+[38;5;191m[38a155b6][0m[38;5;-81m[AndroidUiautomator2Driver@0d20][0m Server packages are going to be (re)installed
+[38;5;191m[38a155b6][0m[38;5;229m[ADB][0m Using 'apksigner.jar' from 'C:\Users\QA.engineer5\AppData\Local\Android\Sdk\build-tools\36.0.0\lib\apksigner.jar'
+[38;5;191m[38a155b6][0m[38;5;229m[ADB][0m The installation of 'appium-uiautomator2-server-debug-androidTest.apk' took 1625ms
+[38;5;191m[38a155b6][0m[38;5;229m[ADB][0m 'D:\QA.engineer5\Downloads\APK-sauce-labs.2.7.1 (1).apk' is signed with a non-default certificate
+[38;5;191m[38a155b6][0m[38;5;229m[ADB][0m The installation of 'appium-uiautomator2-server-v10.6.6.apk' took 2950ms
+[38;5;191m[38a155b6][0m[38;5;229m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;191m[38a155b6][0m[38;5;229m[ADB][0m The installation of 'APK-sauce-labs.2.7.1 (1).apk' took 8811ms
+[38;5;191m[38a155b6][0m[38;5;-81m[AndroidUiautomator2Driver@0d20][0m Starting UIAutomator2 server 10.6.6
+[38;5;191m[38a155b6][0m[38;5;-81m[AndroidUiautomator2Driver@0d20][0m Using UIAutomator2 server from 'C:\Users\QA.engineer5\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v10.6.6.apk' and test from 'C:\Users\QA.engineer5\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[38;5;191m[38a155b6][0m[38;5;-81m[AndroidUiautomator2Driver@0d20][0m Waiting up to 180000ms for UiAutomator2 to be online...
+[38;5;191m[38a155b6][0m[38;5;-81m[AndroidUiautomator2Driver@0d20][0m socket hang up
+[38;5;191m[38a155b6][0m[38;5;-81m[AndroidUiautomator2Driver@0d20][0m socket hang up
+[38;5;191m[38a155b6][0m[38;5;-81m[AndroidUiautomator2Driver@0d20][0m socket hang up
+[38;5;191m[38a155b6][0m[38;5;-81m[AndroidUiautomator2Driver@0d20][0m socket hang up
+[38;5;191m[38a155b6][0m[38;5;-81m[AndroidUiautomator2Driver@0d20][0m socket hang up
+[38;5;191m[38a155b6][0m[38;5;-81m[AndroidUiautomator2Driver@0d20][0m socket hang up
+[38;5;191m[38a155b6][0m[38;5;-81m[AndroidUiautomator2Driver@0d20][0m Determined the downstream protocol as 'W3C'
+[38;5;191m[38a155b6][0m[38;5;-81m[AndroidUiautomator2Driver@0d20][0m Screen already unlocked, doing nothing
+[38;5;191m[38a155b6][0m[38;5;-81m[AndroidUiautomator2Driver@0d20][0m Starting 'com.swaglabsmobileapp/com.swaglabsmobileapp.SplashActivityand waiting for 'com.swaglabsmobileapp/*'
+[38;5;191m[38a155b6][0m[38;5;123m[BaseDriver][0m Unsubscribing 0d20fed1-34ae-4050-87f4-bc7b77b52a8e from topic 'uiautomator2:sessionUdidClaimed'
+[38;5;191m[38a155b6][0m[38;5;123m[BaseDriver][0m Subscribing 0d20fed1-34ae-4050-87f4-bc7b77b52a8e to topic 'uiautomator2:sessionUdidClaimed'
+[38;5;191m[38a155b6][0m[38;5;99m[AppiumDriver@b825][0m New AndroidUiautomator2Driver session created successfully, session 38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5 added to master session list
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session 200 27500 ms - 1603
+[38;5;86m[HTTP][0m --> GET /status 
+[38;5;86m[HTTP][0m <-- GET /status 404 8 ms - 2679
+[38;5;191m[38a155b6][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/timeouts {"implicit":180000}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/timeouts 200 5 ms - 14
+[38;5;191m[38a155b6][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/execute/sync {"script":"mobile: getSystemBars","args":[]}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/execute/sync 200 202 ms - 151
+[38;5;191m[38a155b6][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/timeouts {}
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/timeouts 200 2 ms - 47
+[38;5;191m[38a155b6][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/timeouts 200 2 ms - 14
+[38;5;191m[38a155b6][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/elements {"using":"accessibility id","value":"test-Username"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/elements 200 361 ms - 139
+[38;5;191m[38a155b6][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/timeouts {"implicit":180000}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/timeouts 200 1 ms - 14
+[38;5;191m[38a155b6][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/element/00000000-0000-000a-ffff-ffff0000002b/clear {"id":"00000000-0000-000a-ffff-ffff0000002b"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/element/00000000-0000-000a-ffff-ffff0000002b/clear 200 91 ms - 14
+[38;5;191m[38a155b6][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/element/00000000-0000-000a-ffff-ffff0000002b/click {"id":"00000000-0000-000a-ffff-ffff0000002b"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/element/00000000-0000-000a-ffff-ffff0000002b/click 200 626 ms - 14
+[38;5;191m[38a155b6][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/element/00000000-0000-000a-ffff-ffff0000002b/value {"text":"standard_user","id":"00000000-0000-000a-ffff-ffff0000002b","value":["s","t","a","n","d","a","r","d","_","u","s","e","r"]}
+[38;5;191m[38a155b6][0m[38;5;123m[BaseDriver][0m The following arguments are not known and will be ignored: value
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/element/00000000-0000-000a-ffff-ffff0000002b/value 200 1123 ms - 14
+[38;5;191m[38a155b6][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/timeouts {}
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/timeouts 200 2 ms - 47
+[38;5;191m[38a155b6][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/timeouts 200 1 ms - 14
+[38;5;191m[38a155b6][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/elements {"using":"accessibility id","value":"test-Password"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/elements 200 677 ms - 139
+[38;5;191m[38a155b6][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/timeouts {"implicit":180000}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/timeouts 200 2 ms - 14
+[38;5;191m[38a155b6][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/element/00000000-0000-000a-ffff-ffff0000002e/clear {"id":"00000000-0000-000a-ffff-ffff0000002e"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/element/00000000-0000-000a-ffff-ffff0000002e/clear 200 1216 ms - 14
+[38;5;191m[38a155b6][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/element/00000000-0000-000a-ffff-ffff0000002e/click {"id":"00000000-0000-000a-ffff-ffff0000002e"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/element/00000000-0000-000a-ffff-ffff0000002e/click 200 1715 ms - 14
+[38;5;191m[38a155b6][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/element/00000000-0000-000a-ffff-ffff0000002e/value {"text":"secret_sauce","id":"00000000-0000-000a-ffff-ffff0000002e","value":["s","e","c","r","e","t","_","s","a","u","c","e"]}
+[38;5;191m[38a155b6][0m[38;5;123m[BaseDriver][0m The following arguments are not known and will be ignored: value
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/element/00000000-0000-000a-ffff-ffff0000002e/value 200 880 ms - 14
+[38;5;191m[38a155b6][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/execute/sync {"script":"mobile: isKeyboardShown","args":[]}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/execute/sync 200 523 ms - 14
+[38;5;191m[38a155b6][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/execute/sync {"script":"mobile: hideKeyboard","args":[]}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/execute/sync 200 1023 ms - 14
+[38;5;191m[38a155b6][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/timeouts 200 1 ms - 14
+[38;5;191m[38a155b6][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/elements {"using":"-ios class chain","value":"**/XCUIElementTypeKeyboard"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/elements 400 2 ms - 2456
+[38;5;191m[38a155b6][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/timeouts {}
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/timeouts 200 1 ms - 42
+[38;5;191m[38a155b6][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/timeouts 200 2 ms - 14
+[38;5;191m[38a155b6][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/elements {"using":"accessibility id","value":"test-LOGIN"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/elements 200 137 ms - 139
+[38;5;191m[38a155b6][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/timeouts 200 1 ms - 14
+[38;5;191m[38a155b6][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/element/00000000-0000-000a-ffff-ffff0000002f/click {"id":"00000000-0000-000a-ffff-ffff0000002f"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/element/00000000-0000-000a-ffff-ffff0000002f/click 200 92 ms - 14
+[38;5;191m[38a155b6][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/timeouts {}
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/timeouts 200 2 ms - 42
+[38;5;191m[38a155b6][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/timeouts 200 2 ms - 14
+[38;5;191m[38a155b6][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/elements {"using":"class name","value":"android.view.ViewGroup"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/elements 200 218 ms - 4619
+[38;5;191m[38a155b6][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/timeouts 200 1 ms - 14
+[38;5;191m[38a155b6][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/timeouts {}
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/timeouts 200 1 ms - 42
+[38;5;191m[38a155b6][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/timeouts 200 1 ms - 14
+[38;5;191m[38a155b6][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/elements {"using":"class name","value":"android.view.ViewGroup"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/elements 200 187 ms - 4619
+[38;5;191m[38a155b6][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/timeouts 200 2 ms - 14
+[38;5;191m[38a155b6][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/element/00000000-0000-000a-ffff-ffff0000004e/click {"id":"00000000-0000-000a-ffff-ffff0000004e"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/element/00000000-0000-000a-ffff-ffff0000004e/click 200 143 ms - 14
+[38;5;191m[38a155b6][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/timeouts {}
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/timeouts 200 1 ms - 42
+[38;5;191m[38a155b6][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/timeouts 200 2 ms - 14
+[38;5;191m[38a155b6][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/elements {"using":"accessibility id","value":"test-Price"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/elements 200 102 ms - 267
+[38;5;191m[38a155b6][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/timeouts 200 1 ms - 14
+[38;5;191m[38a155b6][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/timeouts {}
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/timeouts 200 1 ms - 42
+[38;5;191m[38a155b6][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/timeouts 200 1 ms - 14
+[38;5;191m[38a155b6][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/elements {"using":"accessibility id","value":"test-Price"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/elements 200 62 ms - 267
+[38;5;191m[38a155b6][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/timeouts 200 1 ms - 14
+[38;5;191m[38a155b6][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/element/00000000-0000-000a-ffff-ffff0000005b/click {"id":"00000000-0000-000a-ffff-ffff0000005b"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5/element/00000000-0000-000a-ffff-ffff0000005b/click 200 100 ms - 14
+[38;5;191m[38a155b6][0m[38;5;86m[HTTP][0m --> DELETE /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5 {}
+[38;5;191m[38a155b6][0m[38;5;123m[BaseDriver][0m Unsubscribing 0d20fed1-34ae-4050-87f4-bc7b77b52a8e from topic 'uiautomator2:sessionUdidClaimed'
+[38;5;191m[38a155b6][0m[38;5;-81m[AndroidUiautomator2Driver@0d20][0m Restoring hidden api policy to the device default configuration
+[38;5;191m[38a155b6][0m[38;5;99m[AppiumDriver@b825][0m Removing session 38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5 from our master session list
+[38;5;86m[HTTP][0m <-- DELETE /wd/hub/session/38a155b6-bd25-4fcf-9f56-c2a8fa3bdba5 200 1305 ms - 14

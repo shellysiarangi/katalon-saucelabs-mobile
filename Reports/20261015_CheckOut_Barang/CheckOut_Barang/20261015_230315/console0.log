@@ -1,0 +1,598 @@
+2026-10-15 23:03:20.939 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\QA.engineer5\.katalon\packages\KSE-10.4.3\configuration\org.eclipse.osgi\133\0\.cp\resources\logback\logback-execution.xml
+2026-10-15 23:03:20.946 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\QA.engineer5\Katalon Studio\katalon-saucelabs-mobile\Include\config\log.properties
+2026-10-15 23:03:21.787 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/CheckOut_Barang
+2026-10-15 23:03:21.969 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = rapid
+2026-10-15 23:03:21.970 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = katalon-saucelabs-mobile
+2026-10-15 23:03:21.973 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = QA.engineer5 - ATM-006
+2026-10-15 23:03:21.976 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-10-15 23:03:21.977 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.252.34
+2026-10-15 23:03:21.978 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.3.0
+2026-10-15 23:03:22.831 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-15 23:03:22.831 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/CheckOut_Barang
+2026-10-15 23:03:23.680 DEBUG testcase.CheckOut_Barang                 - 1: startApplication(apk, true)
+2026-10-15 23:03:24.328 INFO  c.k.k.c.m.k.b.StartApplicationKeyword    - Starting application: 'D:\QA.engineer5\Downloads\APK-sauce-labs.2.7.1 (1).apk'
+2026-10-15 23:03:24.434 INFO  c.k.k.c.m.k.i.MobileDriverFactory        - User set preference: ['uiautomator2ServerLaunchTimeout', '180,000']
+2026-10-15 23:03:24.436 INFO  c.k.k.c.m.k.i.MobileDriverFactory        - User set preference: ['uiautomator2ServerInstallTimeout', '120,000']
+2026-10-15 23:03:24.437 INFO  c.k.k.c.m.k.i.MobileDriverFactory        - User set preference: ['adbExecTimeout', '120,000']
+2026-10-15 23:03:24.440 INFO  c.k.k.c.m.k.i.MobileDriverFactory        - User set preference: ['appWaitActivity', '*']
+2026-10-15 23:03:24.442 INFO  c.k.k.c.m.k.i.MobileDriverFactory        - User set preference: ['noReset', 'true']
+2026-10-15 23:03:24.444 INFO  c.k.k.c.m.k.i.MobileDriverFactory        - User set preference: ['fullReset', 'false']
+2026-10-15 23:03:24.450 INFO  c.k.k.c.m.k.i.MobileDriverFactory        - User set preference: ['deviceId', 'emulator-5554']
+2026-10-15 23:03:24.708 INFO  c.k.k.c.a.driver.AppiumDriverManager     - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+2026-10-15 23:03:30.102 INFO  c.k.k.c.a.driver.AppiumDriverManager     - PATH: C:\Program Files\nodejs;
+2026-10-15 23:03:30.103 INFO  c.k.k.c.a.driver.AppiumDriverManager     - APPIUM_HOME: C:\Users\QA.engineer5\AppData\Roaming\npm\node_modules\appium
+2026-10-15 23:03:30.104 INFO  c.k.k.c.a.driver.AppiumDriverManager     - appium outlog: C:\Users\QA.engineer5\Katalon Studio\katalon-saucelabs-mobile\Reports\20261015_230315\CheckOut_Barang\20261015_230315\appium.log
+2026-10-15 23:03:30.106 INFO  c.k.k.c.a.driver.AppiumDriverManager     - appium errlog: C:\Users\QA.engineer5\Katalon Studio\katalon-saucelabs-mobile\Reports\20261015_230315\CheckOut_Barang\20261015_230315\appium_error.log
+[38;5;112m[Appium][0m Welcome to Appium v3.8.0
+[38;5;112m[Appium][0m Non-default server args:
+[38;5;112m[Appium][0m { basePath: [32m'/wd/hub'[39m, loglevel: [32m'info'[39m, port: [33m59083[39m }
+[38;5;112m[Appium][0m Attempting to load driver uiautomator2...
+2026-10-15 23:03:34.817 INFO  c.k.k.c.a.driver.AppiumDriverManager     - Appium server started on port 59,083
+[38;5;112m[Appium][0m Appium REST http interface listener started on http://0.0.0.0:59083/wd/hub
+[38;5;112m[Appium][0m You can provide the following URLs in your client code to connect to this server:
+	http://192.168.252.34:59083/wd/hub
+	http://127.0.0.1:59083/wd/hub (only accessible from the same host)
+	http://192.168.96.1:59083/wd/hub
+[38;5;112m[Appium][0m Available drivers:
+[38;5;112m[Appium][0m   - uiautomator2@8.7.0 (automationName 'UiAutomator2')
+[38;5;112m[Appium][0m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[38;5;86m[HTTP][0m --> GET /wd/hub/status 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 12 ms - 110
+[38;5;86m[HTTP][0m --> POST /wd/hub/session {"capabilities":{"firstMatch":[{"appium:adbExecTimeout":120000,"appium:app":"D:\\QA.engineer5\\Downloads\\APK-sauce-labs.2.7.1 (1).apk","appium:appWaitActivity":"*","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"emulator-5554","appium:deviceName":"emulator-5554 (sdk_gphone64_x86_64 - Android 15)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"appium:platformName":"ANDROID","appium:platformVersion":"15","appium:systemPort":59082,"appium:udid":"emulator-5554","appium:uiautomator2ServerInstallTimeout":120000,"appium:uiautomator2ServerLaunchTimeout":180000,"platformName":"ANDROID"}]},"desiredCapabilities":{"appium:adbExecTimeout":120000,"appium:app":"D:\\QA.engineer5\\Downloads\\APK-sauce-labs.2.7.1 (1).apk","appium:appWaitActivity":"*","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"emulator-5554","appium:deviceName":"emulator-5554 (sdk_gphone64_x86_64 - Android 15)","appium:fullReset":fal…
+[38;5;123m[BaseDriver][0m The following arguments are not known and will be ignored: desiredCapabilities
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=ANDROID'
+[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'ANDROID'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at C:\Users\QA.engineer5\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-driver
+[38;5;184m[AppiumDriver@917c][0m Appium v3.8.0 creating new AndroidUiautomator2Driver (v8.7.0) session
+[38;5;184m[AppiumDriver@917c][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;184m[AppiumDriver@917c][0m Appium's BaseDriver version is 10.8.1
+[38;5;184m[AppiumDriver@917c][0m AndroidUiautomator2Driver's BaseDriver version is 10.8.1
+[38;5;-60m[AndroidUiautomator2Driver@28b9][0m The following provided capabilities were not recognized by this driver:
+[38;5;-60m[AndroidUiautomator2Driver@28b9][0m   deviceId
+[38;5;103m[5ddc3be5][0m[38;5;-60m[AndroidUiautomator2Driver@28b9][0m Session created with session id: 5ddc3be5-a482-40ac-809f-3ab4ef5a24c0
+[38;5;103m[5ddc3be5][0m[38;5;229m[ADB][0m Found 1 'build-tools' folders under 'C:\Users\QA.engineer5\AppData\Local\Android\Sdk' (newest first):
+[38;5;103m[5ddc3be5][0m[38;5;229m[ADB][0m     C:\Users\QA.engineer5\AppData\Local\Android\Sdk\build-tools\36.0.0
+[38;5;103m[5ddc3be5][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\QA.engineer5\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[38;5;103m[5ddc3be5][0m[38;5;-60m[AndroidUiautomator2Driver@28b9][0m Retrieving device list
+[38;5;103m[5ddc3be5][0m[38;5;-60m[AndroidUiautomator2Driver@28b9][0m Using device: emulator-5554
+[38;5;103m[5ddc3be5][0m[38;5;123m[BaseDriver][0m Subscribing 28b9e23a-5822-47d9-a40a-023b45c7cbb0 to topic 'uiautomator2:sessionUdidClaimed'
+[38;5;103m[5ddc3be5][0m[38;5;123m[BaseDriver][0m Subscribing 28b9e23a-5822-47d9-a40a-023b45c7cbb0 to topic 'uiautomator2:sessionUdidContended'
+[38;5;103m[5ddc3be5][0m[38;5;123m[BaseDriver][0m Subscribing 28b9e23a-5822-47d9-a40a-023b45c7cbb0 to topic 'uiautomator2:sessionUdidReleased'
+[38;5;103m[5ddc3be5][0m[38;5;123m[BaseDriver][0m Unsubscribing 28b9e23a-5822-47d9-a40a-023b45c7cbb0 from topic 'uiautomator2:sessionUdidContended'
+[38;5;103m[5ddc3be5][0m[38;5;123m[BaseDriver][0m Unsubscribing 28b9e23a-5822-47d9-a40a-023b45c7cbb0 from topic 'uiautomator2:sessionUdidReleased'
+[38;5;103m[5ddc3be5][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\QA.engineer5\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[38;5;103m[5ddc3be5][0m[38;5;123m[BaseDriver][0m Using local app 'D:\QA.engineer5\Downloads\APK-sauce-labs.2.7.1 (1).apk'
+[38;5;103m[5ddc3be5][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;103m[5ddc3be5][0m[38;5;-60m[AndroidUiautomator2Driver@28b9][0m Relaxing hidden api policy
+[38;5;103m[5ddc3be5][0m[38;5;229m[ADB][0m Using 'aapt2.exe' from 'C:\Users\QA.engineer5\AppData\Local\Android\Sdk\build-tools\36.0.0\aapt2.exe'
+[38;5;103m[5ddc3be5][0m[38;5;229m[ADB][0m Package name: 'com.swaglabsmobileapp'
+[38;5;103m[5ddc3be5][0m[38;5;229m[ADB][0m Main activity name: 'com.swaglabsmobileapp.SplashActivity'
+[38;5;103m[5ddc3be5][0m[38;5;-60m[AndroidUiautomator2Driver@28b9][0m Server packages are not going to be (re)installed
+[38;5;103m[5ddc3be5][0m[38;5;229m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;103m[5ddc3be5][0m[38;5;-60m[AndroidUiautomator2Driver@28b9][0m Starting UIAutomator2 server 10.6.6
+[38;5;103m[5ddc3be5][0m[38;5;-60m[AndroidUiautomator2Driver@28b9][0m Using UIAutomator2 server from 'C:\Users\QA.engineer5\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v10.6.6.apk' and test from 'C:\Users\QA.engineer5\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[38;5;103m[5ddc3be5][0m[38;5;-60m[AndroidUiautomator2Driver@28b9][0m Waiting up to 180000ms for UiAutomator2 to be online...
+[38;5;103m[5ddc3be5][0m[38;5;-60m[AndroidUiautomator2Driver@28b9][0m socket hang up
+[38;5;103m[5ddc3be5][0m[38;5;-60m[AndroidUiautomator2Driver@28b9][0m socket hang up
+[38;5;103m[5ddc3be5][0m[38;5;-60m[AndroidUiautomator2Driver@28b9][0m socket hang up
+[38;5;103m[5ddc3be5][0m[38;5;-60m[AndroidUiautomator2Driver@28b9][0m Determined the downstream protocol as 'W3C'
+[38;5;103m[5ddc3be5][0m[38;5;-60m[AndroidUiautomator2Driver@28b9][0m Screen already unlocked, doing nothing
+[38;5;103m[5ddc3be5][0m[38;5;-60m[AndroidUiautomator2Driver@28b9][0m Starting 'com.swaglabsmobileapp/com.swaglabsmobileapp.SplashActivityand waiting for 'com.swaglabsmobileapp/*'
+[38;5;103m[5ddc3be5][0m[38;5;-60m[AndroidUiautomator2Driver@28b9][0m 'com.swaglabsmobileapp' is already running and noReset is enabled. Set forceAppLaunch capability to true if the app must be forcefully restarted on session startup.
+[38;5;103m[5ddc3be5][0m[38;5;123m[BaseDriver][0m Unsubscribing 28b9e23a-5822-47d9-a40a-023b45c7cbb0 from topic 'uiautomator2:sessionUdidClaimed'
+[38;5;103m[5ddc3be5][0m[38;5;123m[BaseDriver][0m Subscribing 28b9e23a-5822-47d9-a40a-023b45c7cbb0 to topic 'uiautomator2:sessionUdidClaimed'
+[38;5;103m[5ddc3be5][0m[38;5;184m[AppiumDriver@917c][0m New AndroidUiautomator2Driver session created successfully, session 5ddc3be5-a482-40ac-809f-3ab4ef5a24c0 added to master session list
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session 200 6113 ms - 1603
+2026-10-15 23:03:42.915 WARN  c.k.k.c.a.driver.AppiumRequestService    - Unable to get appium status. Root cause (Cannot invoke "com.google.gson.JsonObject.getAsJsonPrimitive(String)" because the return value of "com.google.gson.JsonObject.getAsJsonObject(String)" is null)
+2026-10-15 23:03:42.940 INFO  c.k.k.c.a.driver.AppiumDriverManager     - deviceId = emulator-5554
+2026-10-15 23:03:42.941 INFO  c.k.k.c.a.driver.AppiumDriverManager     - deviceName = emulator-5554 (sdk_gphone64_x86_64 - Android 15)
+2026-10-15 23:03:42.942 INFO  c.k.k.c.a.driver.AppiumDriverManager     - deviceModel = sdk_gphone64_x86_64
+2026-10-15 23:03:42.944 INFO  c.k.k.c.a.driver.AppiumDriverManager     - deviceManufacturer = Google
+2026-10-15 23:03:42.945 INFO  c.k.k.c.a.driver.AppiumDriverManager     - deviceOS = Android
+2026-10-15 23:03:42.947 INFO  c.k.k.c.a.driver.AppiumDriverManager     - deviceOSVersion = 15
+2026-10-15 23:03:43.084 DEBUG testcase.CheckOut_Barang                 - 2: login.Login.LoginStep(username, password)
+[38;5;86m[HTTP][0m --> GET /status 
+[38;5;86m[HTTP][0m <-- GET /status 404 10 ms - 2679
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":180000}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 4 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/execute/sync {"script":"mobile: getSystemBars","args":[]}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/execute/sync 200 106 ms - 151
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {}
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 2 ms - 47
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 1 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-Username"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 105 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 2 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-Username"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 66 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 2 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-Username"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 100 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 2 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-Username"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 67 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 1 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-Username"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 1434 ms - 139
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":180000}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 2 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/element/00000000-0000-000f-ffff-ffff00000068/clear {"id":"00000000-0000-000f-ffff-ffff00000068"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/element/00000000-0000-000f-ffff-ffff00000068/clear 200 82 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/element/00000000-0000-000f-ffff-ffff00000068/click {"id":"00000000-0000-000f-ffff-ffff00000068"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/element/00000000-0000-000f-ffff-ffff00000068/click 200 1952 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/element/00000000-0000-000f-ffff-ffff00000068/value {"text":"standard_user","id":"00000000-0000-000f-ffff-ffff00000068","value":["s","t","a","n","d","a","r","d","_","u","s","e","r"]}
+[38;5;103m[5ddc3be5][0m[38;5;123m[BaseDriver][0m The following arguments are not known and will be ignored: value
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/element/00000000-0000-000f-ffff-ffff00000068/value 200 806 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {}
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 3 ms - 47
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 1 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-Password"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 786 ms - 139
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":180000}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 2 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/element/00000000-0000-000f-ffff-ffff0000006b/clear {"id":"00000000-0000-000f-ffff-ffff0000006b"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/element/00000000-0000-000f-ffff-ffff0000006b/clear 200 34 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/element/00000000-0000-000f-ffff-ffff0000006b/click {"id":"00000000-0000-000f-ffff-ffff0000006b"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/element/00000000-0000-000f-ffff-ffff0000006b/click 200 1595 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/element/00000000-0000-000f-ffff-ffff0000006b/value {"text":"secret_sauce","id":"00000000-0000-000f-ffff-ffff0000006b","value":["s","e","c","r","e","t","_","s","a","u","c","e"]}
+[38;5;103m[5ddc3be5][0m[38;5;123m[BaseDriver][0m The following arguments are not known and will be ignored: value
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/element/00000000-0000-000f-ffff-ffff0000006b/value 200 730 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/execute/sync {"script":"mobile: isKeyboardShown","args":[]}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/execute/sync 200 630 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/execute/sync {"script":"mobile: hideKeyboard","args":[]}
+2026-10-15 23:03:54.992 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - login.Login.LoginStep is PASSED
+2026-10-15 23:03:54.994 DEBUG testcase.CheckOut_Barang                 - 3: tap(findTestObject("Object Repository/Check_Out/AddToCart_Button"), timeout)
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/execute/sync 200 970 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 2 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"-ios class chain","value":"**/XCUIElementTypeKeyboard"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 400 1 ms - 2456
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {}
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 1 ms - 42
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 1 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-LOGIN"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 181 ms - 139
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 2 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/element/00000000-0000-000f-ffff-ffff0000006c/click {"id":"00000000-0000-000f-ffff-ffff0000006c"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/element/00000000-0000-000f-ffff-ffff0000006c/click 200 105 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {}
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 1 ms - 42
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 2 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-ADD TO CART"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 165 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 1 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-ADD TO CART"}
+2026-10-15 23:03:56.732 DEBUG testcase.CheckOut_Barang                 - 4: tap(findTestObject("Object Repository/Check_Out/Keranjang_Ikon"), timeout)
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 996 ms - 267
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 1 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/element/00000000-0000-000f-ffff-ffff0000009f/click {"id":"00000000-0000-000f-ffff-ffff0000009f"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/element/00000000-0000-000f-ffff-ffff0000009f/click 200 81 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {}
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 3 ms - 42
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 2 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"xpath","value":"//*[@class = 'android.widget.ImageView' and (@text = '' or . = '')]"}
+2026-10-15 23:03:58.763 DEBUG testcase.CheckOut_Barang                 - 5: delay(10)
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 1639 ms - 1291
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 1 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/element/00000000-0000-000f-ffff-ffff0000008d/click {"id":"00000000-0000-000f-ffff-ffff0000008d"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/element/00000000-0000-000f-ffff-ffff0000008d/click 200 96 ms - 14
+2026-10-15 23:04:08.819 DEBUG testcase.CheckOut_Barang                 - 6: waitForElementPresent(findTestObject("Object Repository/Check_Out/CheckOut_Button"), timeout)
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {}
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 2 ms - 42
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 1 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 74 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 1 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 62 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 2 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 84 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 4 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 54 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 1 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 47 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 1 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 66 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 1 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 72 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 1 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 73 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 1 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 73 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 2 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 65 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 2 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 67 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 2 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 58 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 1 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 44 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 1 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 95 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 1 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 57 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 1 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 47 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 1 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 54 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 1 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 90 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 2 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 92 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 2 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 64 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 1 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 67 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 1 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 61 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 2 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 63 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 2 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 57 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 1 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 75 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 1 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 61 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 2 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 73 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 2 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 64 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 1 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 59 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 2 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 55 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 2 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 65 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 2 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 50 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 1 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 48 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 2 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 57 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 2 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+2026-10-15 23:04:19.122 WARN  k.k.c.m.k.b.WaitForElementPresentKeyword - Object Object Repository/Check_Out/CheckOut_Button not found
+2026-10-15 23:04:19.125 DEBUG testcase.CheckOut_Barang                 - 7: tap(findTestObject("Object Repository/Check_Out/CheckOut_Button"), timeout)
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 49 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 1 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 63 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 1 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 75 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 1 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {}
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 1 ms - 42
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 2 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 55 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 2 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 54 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 2 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 67 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 1 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 66 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 1 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 61 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 2 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 62 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 2 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 37 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 2 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 81 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 1 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 59 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 2 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 59 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 2 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 64 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 1 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 46 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 2 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 84 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 2 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 63 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 1 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 40 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 1 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 96 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 2 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 265 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 1 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 45 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 1 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 66 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 1 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 61 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 1 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 55 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 1 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 47 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 1 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 67 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 2 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 57 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 1 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 73 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 1 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 51 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 2 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 66 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 1 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 46 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 1 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 63 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 1 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 101 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 2 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 83 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 1 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 60 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 2 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 47 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 2 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 55 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 1 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 46 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 1 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 62 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 2 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements {"using":"accessibility id","value":"test-CHECKOUT"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/elements 200 66 ms - 12
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/timeouts 200 1 ms - 14
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/screenshot {}
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/screenshot 200 754 ms - 1675296
+2026-10-15 23:04:30.917 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Object Object Repository/Check_Out/CheckOut_Button not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Check_Out/CheckOut_Button not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:65)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:47)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:53)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1568)
+	at CheckOut_Barang.run(CheckOut_Barang:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1792080195045.run(TempTestSuite1792080195045.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/screenshot {}
+2026-10-15 23:04:32.207 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Failed to tap on element 'Object Repository/Check_Out/CheckOut_Button' (Root cause: com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/Check_Out/CheckOut_Button'
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:65)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:34)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:53)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1568)
+	at CheckOut_Barang.run(CheckOut_Barang:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1792080195045.run(TempTestSuite1792080195045.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Check_Out/CheckOut_Button not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:65)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:47)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+	... 20 more
+)
+2026-10-15 23:04:32.211 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/CheckOut_Barang FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/Check_Out/CheckOut_Button'
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:65)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:34)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:53)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1568)
+	at CheckOut_Barang.run(CheckOut_Barang:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1792080195045.run(TempTestSuite1792080195045.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Check_Out/CheckOut_Button not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:65)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:47)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+	... 20 more
+
+2026-10-15 23:04:32.218 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/CheckOut_Barang
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0/screenshot 200 770 ms - 1675296
+[38;5;103m[5ddc3be5][0m[38;5;86m[HTTP][0m --> DELETE /wd/hub/session/5ddc3be5-a482-40ac-809f-3ab4ef5a24c0 {}
+[38;5;103m[5ddc3be5][0m[38;5;123m[BaseDriver][0m Unsubscribing 28b9e23a-5822-47d9-a40a-023b45c7cbb0 from topic 'uiautomator2:sessionUdidClaimed'
+2026-10-15 23:04:32.892 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-10-15 23:04:32.892 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/CheckOut_Barang
+2026-10-15 23:04:32.892 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

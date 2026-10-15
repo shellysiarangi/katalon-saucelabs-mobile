@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login_Logout,,,,15-10-2026 00:02:24,15-10-2026 00:03:34,1m - 10.104s,PASSED
+,,,,,,,
+Test Cases/Login_Logout,,"Melakukan pengujian fitur login
+Pengujian mencakup positif dan negatif Test Case",,15-10-2026 00:02:26,15-10-2026 00:03:33,1m - 7.043s,PASSED
+"startApplication(apk, true)",,,,15-10-2026 00:02:27,15-10-2026 00:03:10,43.518s,PASSED
+"login.Login.LoginStep(username, password)",,,,15-10-2026 00:03:10,15-10-2026 00:03:21,10.124s,PASSED
+delay(5),,,,15-10-2026 00:03:21,15-10-2026 00:03:26,5.085s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/BurgerMenu_Button""), 30)",,,,15-10-2026 00:03:26,15-10-2026 00:03:26,0.566s,PASSED
+"tap(findTestObject(""Object Repository/BurgerMenu_Button""), 10)",,,,15-10-2026 00:03:26,15-10-2026 00:03:27,0.612s,PASSED
+delay(5),,,,15-10-2026 00:03:27,15-10-2026 00:03:32,5.009s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Logout_Button""), 30)",,,,15-10-2026 00:03:32,15-10-2026 00:03:32,0.361s,PASSED
+"tap(findTestObject(""Object Repository/Logout_Button""), 10)",,,,15-10-2026 00:03:32,15-10-2026 00:03:33,0.408s,PASSED

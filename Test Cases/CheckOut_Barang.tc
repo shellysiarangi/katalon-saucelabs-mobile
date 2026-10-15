@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Melakukan pengujian terkait dengan checkput barang sesuai yang sudah dipilih</description>
+   <name>CheckOut_Barang</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1fe5473e-f37f-417b-a6fc-d2fd8acac351</testCaseGuid>
+</TestCaseEntity>

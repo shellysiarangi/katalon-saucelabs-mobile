@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Melakukan pengujian fitur login&#xd;
+Pengujian mencakup positif dan negatif Test Case</description>
+   <name>Login_Logout</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4ab1d392-d69d-44b4-91c9-e675bd72ad56</testCaseGuid>
+</TestCaseEntity>

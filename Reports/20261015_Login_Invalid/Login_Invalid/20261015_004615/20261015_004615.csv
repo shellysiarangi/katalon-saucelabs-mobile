@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login_Invalid,,,,15-10-2026 00:46:22,15-10-2026 00:46:57,34.388s,PASSED
+,,,,,,,
+Test Cases/Login_Invalid,,Melakukan pengujian terkait dengan gagal melakukan login,,15-10-2026 00:46:24,15-10-2026 00:46:56,32.320s,PASSED
+"startApplication(apk, true)",,,,15-10-2026 00:46:24,15-10-2026 00:46:44,19.821s,PASSED
+"login.Login.LoginStep(username, password_invalid)",,,,15-10-2026 00:46:44,15-10-2026 00:46:54,9.730s,PASSED
+"login.Verify_Login.VerifyErrorMessage(""Username and password do not match any user in this service."")",,,,15-10-2026 00:46:54,15-10-2026 00:46:56,2.091s,PASSED

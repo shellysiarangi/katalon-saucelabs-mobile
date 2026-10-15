@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login_Logout" time="68.721" tests="1" failures="0" errors="0">
+   <testsuite name="Login_Logout" tests="1" failures="0" errors="0" time="68.721" skipped="0" timestamp="2026-10-14T17:02:24.399Z" hostname="QA.engineer5 - ATM-006" id="Test Suites/Login_Logout">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_x86_64 - Android 15)"/>
+         <property name="devicePlatform" value="Android"/>
+         <property name="logFolder" value="C:\\Users\\QA.engineer5\\Katalon Studio\\katalon-saucelabs-mobile\\Reports\\20261015_000214\\Login_Logout\\20261015_000214"/>
+         <property name="logFiles" value="C:\\Users\\QA.engineer5\\Katalon Studio\\katalon-saucelabs-mobile\\Reports\\20261015_000214\\Login_Logout\\20261015_000214\\appium.log, C:\\Users\\QA.engineer5\\Katalon Studio\\katalon-saucelabs-mobile\\Reports\\20261015_000214\\Login_Logout\\20261015_000214\\appium_error.log, C:\\Users\\QA.engineer5\\Katalon Studio\\katalon-saucelabs-mobile\\Reports\\20261015_000214\\Login_Logout\\20261015_000214\\console0.log, C:\\Users\\QA.engineer5\\Katalon Studio\\katalon-saucelabs-mobile\\Reports\\20261015_000214\\Login_Logout\\20261015_000214\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="QA.engineer5 - ATM-006"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.4.3.0"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="userFullName" value="rapid"/>
+         <property name="deviceModel" value="sdk_gphone64_x86_64"/>
+         <property name="hostAddress" value="192.168.252.34"/>
+         <property name="projectName" value="katalon-saucelabs-mobile"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_x86_64 - Android 15)"/>
+         <property name="deviceOSVersion" value="15"/>
+      </properties>
+      <testcase name="Test Cases/Login_Logout" time="67.043" classname="Test Cases/Login_Logout" status="PASSED">
+         <system-out><![CDATA[15-10-2026T00:02:26 - [TEST_CASE][PASSED] - Test Cases/Login_Logout: Test Cases/Login_Logout
+
+15-10-2026T00:02:27 - [TEST_STEP][PASSED] - startApplication(apk, true): Started application: 'D:\QA.engineer5\Downloads\APK-sauce-labs.2.7.1 (1).apk'
+
+15-10-2026T00:02:28 - [MESSAGE][INFO] - Starting application: 'D:\QA.engineer5\Downloads\APK-sauce-labs.2.7.1 (1).apk'
+
+15-10-2026T00:02:28 - [MESSAGE][INFO] - User set preference: ['uiautomator2ServerLaunchTimeout', '180,000']
+
+15-10-2026T00:02:28 - [MESSAGE][INFO] - User set preference: ['uiautomator2ServerInstallTimeout', '120,000']
+
+15-10-2026T00:02:28 - [MESSAGE][INFO] - User set preference: ['adbExecTimeout', '120,000']
+
+15-10-2026T00:02:28 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+15-10-2026T00:02:28 - [MESSAGE][INFO] - User set preference: ['noReset', 'true']
+
+15-10-2026T00:02:28 - [MESSAGE][INFO] - User set preference: ['fullReset', 'false']
+
+15-10-2026T00:02:28 - [MESSAGE][INFO] - User set preference: ['deviceId', 'emulator-5554']
+
+15-10-2026T00:02:28 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+15-10-2026T00:02:34 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+15-10-2026T00:02:34 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\QA.engineer5\AppData\Roaming\npm\node_modules\appium
+
+15-10-2026T00:02:34 - [MESSAGE][INFO] - appium outlog: C:\Users\QA.engineer5\Katalon Studio\katalon-saucelabs-mobile\Reports\20261015_000214\Login_Logout\20261015_000214\appium.log
+
+15-10-2026T00:02:34 - [MESSAGE][INFO] - appium errlog: C:\Users\QA.engineer5\Katalon Studio\katalon-saucelabs-mobile\Reports\20261015_000214\Login_Logout\20261015_000214\appium_error.log
+
+15-10-2026T00:02:40 - [MESSAGE][INFO] - Appium server started on port 57,051
+
+15-10-2026T00:03:10 - [MESSAGE][WARNING] - Unable to get appium status. Root cause (Cannot invoke "com.google.gson.JsonObject.getAsJsonPrimitive(String)" because the return value of "com.google.gson.JsonObject.getAsJsonObject(String)" is null)
+
+15-10-2026T00:03:10 - [MESSAGE][PASSED] - Started application: 'D:\QA.engineer5\Downloads\APK-sauce-labs.2.7.1 (1).apk'
+
+15-10-2026T00:03:10 - [TEST_STEP][PASSED] - login.Login.LoginStep(username, password): login.Login.LoginStep is PASSED
+
+15-10-2026T00:03:13 - [MESSAGE][PASSED] - Text 'standard_user' has been set to element 'Object Repository/Login/Username_Field'
+
+15-10-2026T00:03:18 - [MESSAGE][PASSED] - Text 'secret_sauce' has been set to element 'Object Repository/Login/Password_Field'
+
+15-10-2026T00:03:20 - [MESSAGE][PASSED] - Keyboard is hidden
+
+15-10-2026T00:03:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Login_Button'
+
+15-10-2026T00:03:21 - [MESSAGE][PASSED] - login.Login.LoginStep is PASSED
+
+15-10-2026T00:03:21 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+15-10-2026T00:03:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+15-10-2026T00:03:26 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/BurgerMenu_Button"), 30): Element 'Object Repository/BurgerMenu_Button' is present
+
+15-10-2026T00:03:26 - [MESSAGE][PASSED] - Element 'Object Repository/BurgerMenu_Button' is present
+
+15-10-2026T00:03:26 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/BurgerMenu_Button"), 10): Tapped on element 'Object Repository/BurgerMenu_Button'
+
+15-10-2026T00:03:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/BurgerMenu_Button'
+
+15-10-2026T00:03:27 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+15-10-2026T00:03:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+15-10-2026T00:03:32 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Logout_Button"), 30): Element 'Object Repository/Logout_Button' is present
+
+15-10-2026T00:03:32 - [MESSAGE][PASSED] - Element 'Object Repository/Logout_Button' is present
+
+15-10-2026T00:03:32 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Logout_Button"), 10): Tapped on element 'Object Repository/Logout_Button'
+
+15-10-2026T00:03:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Logout_Button']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[15-10-2026T00:02:24 - [TEST_SUITE][PASSED] - Login_Logout: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
